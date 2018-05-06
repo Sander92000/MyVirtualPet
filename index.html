@@ -1,16 +1,47 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="utf-8">
     <title>My Virtual Pet</title>
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
 </head>
 
 <body>
     <div class="container">
-        <h1>My virtual pet</h1>
+        <header>
+            <h1>My virtual pet</h1>
+        </header>
+        
+        <div id="content">
+            <div id="window">
+                <p>Some Text</p>
+            </div>
+            <div id="control-panel">
+                <div>
+                    <h2 id="name"></h2>
+                    <p>Life: <span id="life">0</span> / 100</p>
+                    <p>Hunger: <span id="hunger">0</span> / 100</p>
+                    <p>Hygene: <span id="hygene">0</span> / 100</p>
+                    <p>Play: <span id="play">0</span>/ 100</p>
+                    <p>Love: <span id="love">0</span> / 100</p>
+                    <p>Energy: <span id="energy">0</span> / 100</p>
+                    <p>Blatter: <span id="blatter">0</span> / 100</p>
+                </div>
+                <hr>
+                <div>
+                    <button id="newPet">Create new pet</button>
+                    <button id="feedPet">Feed pet</button>
+                    <button id="showerPet">Shower pet</button>
+                    <button id="playPet">Play with your pet</button>
+                </div>
+            </div>
+        </div>
 
+        <footer>
+            <p>Website created by Sander Groot</p>
+        </footer>
     </div>
 
     <!-- Start Javascript -->
